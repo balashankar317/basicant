@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="basicant" basedir=".">
+    <target name="clean">
+        <echo>cleaning the bin\ directory</echo>
+    </target>
+    <target name="compile" depends="clean">
+        <echo>compiling the sourcecode!</echo>
+    </target>
+    <target name="run" depends="compile">
+        <echo>running the application</echo>
+    </target>
+</project>
